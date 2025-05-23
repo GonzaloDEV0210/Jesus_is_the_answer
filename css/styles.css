@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Kodchasan-Bold';
+    src: url(/assets/fonts/Kodchasan-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Kodchasan-BoldItalic';
+    src: url(/assets/fonts/Kodchasan-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Kodchasan-Italic';
+    src: url(/assets/fonts/Kodchasan-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Kodchasan-Regular';
+    src: url(/assets/fonts/Kodchasan-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Kodchasan-SemiBold';
+    src: url(/assets/fonts/Kodchasan-SemiBold.ttf);
+}
+
+:root {
+    --color_principal: #D99D7B;
+    --font_kodchasan-Bold: 'Kodchasan-Bold';
+    --font_Kodchasan-BoldItalic: 'Kodchasan-BoldItalic';
+    --font_Kodchasan-Italic: 'Kodchasan-Italic';
+    --font_Kodchasan-Regular: 'Kodchasan-Regular';
+    --font_Kodchasan-SemiBold: 'Kodchasan-SemiBold';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    font-family: var(--font_kodchasan-Bold);
+}
