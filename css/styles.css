@@ -41,3 +41,34 @@
 .header h1 {
     font-family: var(--font_kodchasan-Bold);
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 3px;
+}
+
+/* .header div {
+    border: solid 1px black;
+} */
+
+.container_logo {
+    width: 75px;
+}
+
+.titulo {
+    font-size: 20px;
+}
+
+.container_barra {
+    width: 30px;
+}
+
+.icon_barra {
+    width: 100%;
+}
+
+.img_logo {
+    width: 100%;
+}
