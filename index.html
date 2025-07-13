@@ -47,15 +47,24 @@
             <img class="icon_redes_nav_movil" src="/assets/icons/whatsapp.png" alt="Icono de whatsapp">
             <img class="icon_redes_nav_movil" src="/assets/icons/tik-tok.png" alt="Icono de tik-tok">
             <ul class="container_language_nav_movil">
-                <li class="language_español_nav_movil language_nav_movil">
-                    <img class="icon_bandera_nav_movil" src="/assets/icons/espana.png" alt="Icono de la bandera de españa">
-                    <span>ESP</span>
-                    <img class="icon_flecha_abajo_nav_movil" src="/assets/icons/flecha-abajo.png" alt="icono de flecha desplegable">
-                </li>
-                <li class="language_ingles_nav_movil language_nav_movil">
-                    <img class="icon_bandera_nav_movil" src="/assets/icons/estados-unidos.png" alt="Icono de la bandera de estados unidos">
-                    <span>ING</span>
-                    <img class="icon_flecha_abajo_nav_movil" src="/assets/icons/flecha-abajo.png" alt="icono de flecha desplegable">
+                <li id="selector_idioma" class="language_nav_movil">
+                    <div class="selected_lang_movil">
+                        <img id="selected_flag" class="icon_bandera_nav_movil" src="/assets/icons/espana.png" alt="Bandera actual">
+                        <span id="selected_code">ESP</span>
+                        <img class="icon_flecha_abajo_nav_movil" src="/assets/icons/flecha-abajo.png" alt="Flecha">
+                    </div>
+
+                    <!-- Desplegable -->
+                    <ul id="opciones_idioma" class="lenguage_combo_movil cerrar_lenguage_movil">
+                        <li class="selected_option_lenguage_movil sel_esp_movil">
+                            <img src="/assets/icons/espana.png" class="icon_bandera_nav_movil" alt="Español">
+                            <span>ESP</span>
+                        </li>
+                        <li class="selected_option_lenguage_movil sel_en_movil">
+                            <img src="/assets/icons/estados-unidos.png" class="icon_bandera_nav_movil" alt="Inglés">
+                            <span>ING</span>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </ul>
