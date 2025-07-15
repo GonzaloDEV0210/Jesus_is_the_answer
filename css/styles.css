@@ -98,6 +98,23 @@
     }
     to {
         left: 100%;
+        display: none;
+    }
+}
+
+.abrir_nav_movil {
+    animation: visibilizar_nav_movil 1s forwards;
+}
+
+@keyframes visibilizar_nav_movil {
+    from {
+        left: 100%;
+        display: none;
+        opacity: 0;
+    } to {
+        left: 0;
+        display: flex;
+        opacity: 1;
     }
 }
 /* ------------------ */
