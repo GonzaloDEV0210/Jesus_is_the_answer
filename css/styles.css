@@ -323,3 +323,102 @@
     font-size: 14px;
     line-height: 25px;
 }
+
+.container_text_biblical {
+    font-family: var(--font_Kodchasan-Regular);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid var(--color_principal);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container_book_biblical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.book_biblical {
+    font-family: var(--font_Kodchasan-Italic);
+}
+
+.bg_book_biblical {
+    width: 30px;
+    height: 1px;
+    background-color: var(--color_principal);
+}
+
+.misioneros_inicio {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+/* cards misioneros */
+.container_card_misioneros {
+    width: 240px;
+}
+
+.container_img_nacionalidad {
+    position: relative;
+    height: 330px;
+}
+
+.perfil_misionero {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* border-top-left-radius: 7px;
+    border-top-right-radius: 7px; */
+    border-radius: 7px;
+    z-index: -1;
+}
+
+.nacionalidad {
+    background-color: var(--color_principal);
+    border-radius: 7px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 2px 25px;
+}
+
+.nacion {
+    font-family: var(--font_Kodchasan-Regular);
+    color: var(--color_blanco);
+    font-size: 13px;
+}
+
+.logo_nacion {
+    width: 15px;
+}
+
+.container_nombre_cargo_misionero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0 10px 0;
+    font-family: var(--font_Kodchasan-Regular);
+}
+
+.nombre_misionero {
+    font-size: 14px;
+}
+
+.cargo_misionero {
+    font-size: 13px;
+    color: var(--color_principal);
+}
+/* fin cards misioneros */
