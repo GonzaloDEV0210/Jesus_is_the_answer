@@ -86,6 +86,7 @@
     align-items: center;
     padding-top: 50px;
     padding-bottom: 20px;
+    z-index: 100;
 }
 
 /* cerrar y abrir nav */
@@ -300,11 +301,11 @@
     }
 }
 
-.container_quienes_somos {
+.container_quienes_somos, .container_misiones_inicio {
     margin: 15px 10px;
 }
 
-.title_quienes_somos {
+.title_quienes_somos, .title_misiones {
     font-family: var(--font_Kodchasan-SemiBold);
     text-align: center;
     font-size: 20px;
@@ -317,7 +318,7 @@
     margin: 5px auto 15px auto;
 }
 
-.paragraph_quienes_somos {
+.paragraph_quienes_somos, .paragraph_misiones {
     font-family: var(--font_Kodchasan-Regular);
     text-align: center;
     font-size: 14px;
