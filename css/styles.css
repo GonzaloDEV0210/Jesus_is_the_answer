@@ -423,3 +423,13 @@
     color: var(--color_principal);
 }
 /* fin cards misioneros */
+/* inicio cards misiones */
+.back_ciudad_misiones {
+    width: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    border: 1px solid black;
+}
+/* fin card misiones */
