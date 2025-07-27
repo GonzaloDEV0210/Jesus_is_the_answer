@@ -1,7 +1,7 @@
 const swiper = new Swiper('#slide_misiones', {
     loop: true,
-    /* autoplay: {
+    autoplay: {
         delay: 3000,
         disableOnIteraction: false
-    } */
+    }
 });

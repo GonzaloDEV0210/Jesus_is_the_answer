@@ -424,12 +424,84 @@
 }
 /* fin cards misioneros */
 /* inicio cards misiones */
+.container_swiper_misiones {
+    margin-top: 30px;
+}
+
 .back_ciudad_misiones {
     width: 100%;
     object-fit: cover;
+    height: 300px;
+    border-radius: 10px;
 }
 
-.swiper-slide {
-    border: 1px solid black;
+.sombra_back_misiones {
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    border-radius: 10px;
+}
+
+.container_text_misiones {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: var(--color_blanco);
+    gap: 30px;
+}
+
+.top_text_misiones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.bandera_misiones {
+    width: 30px;
+}
+
+.mision_year {
+    font-family: var(--font_Kodchasan-Italic);
+}
+
+.name_pais_mision {
+    font-family: var(--font_kodchasan-Bold);
+    font-size: 40px;
+    letter-spacing: 8px;
+}
+
+.line_name_mision {
+    width: 30px;
+    height: 2px;
+    background: var(--color_blanco);
+    margin: auto;
+}
+
+.city_name_mision {
+    font-family: var(--font_Kodchasan-Regular);
+    font-size: 17px;
+    letter-spacing: 5px;
+}
+
+.button_mision {
+    font-family: var(--font_Kodchasan-Regular);
+    border: 1px solid var(--color_blanco);
+    background-color: transparent;
+    color: var(--color_blanco);
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
 }
 /* fin card misiones */
