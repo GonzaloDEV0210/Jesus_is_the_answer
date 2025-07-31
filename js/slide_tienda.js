@@ -1,4 +1,4 @@
-const swiper_misiones = new Swiper('#slide_misiones', {
+const swiper_tienda = new Swiper('#slide_tienda', {
     loop: true,
     speed: 1500,
     autoplay: {

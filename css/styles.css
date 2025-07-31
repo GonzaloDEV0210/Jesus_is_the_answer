@@ -301,11 +301,11 @@
     }
 }
 
-.container_quienes_somos, .container_misiones_inicio {
+.container_quienes_somos, .container_misiones_inicio, .container_tienda_inicio {
     margin: 15px 10px;
 }
 
-.title_quienes_somos, .title_misiones {
+.title_quienes_somos, .title_misiones, .title_tienda {
     font-family: var(--font_Kodchasan-SemiBold);
     text-align: center;
     font-size: 20px;
@@ -318,7 +318,7 @@
     margin: 5px auto 15px auto;
 }
 
-.paragraph_quienes_somos, .paragraph_misiones {
+.paragraph_quienes_somos, .paragraph_misiones, .paragraph_tienda {
     font-family: var(--font_Kodchasan-Regular);
     text-align: center;
     font-size: 14px;
@@ -431,8 +431,7 @@
 .back_ciudad_misiones {
     width: 100%;
     object-fit: cover;
-    height: 300px;
-    border-radius: 10px;
+    height: 220px;
 }
 
 .sombra_back_misiones {
@@ -443,7 +442,6 @@
     width: 100%;
     height: 100%;
     opacity: .5;
-    border-radius: 10px;
 }
 
 .container_text_misiones {
@@ -457,14 +455,14 @@
     width: 100%;
     height: 100%;
     color: var(--color_blanco);
-    gap: 30px;
+    gap: 20px;
 }
 
 .top_text_misiones {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .bandera_misiones {
@@ -473,25 +471,29 @@
 
 .mision_year {
     font-family: var(--font_Kodchasan-Italic);
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: 3px;
 }
 
 .name_pais_mision {
     font-family: var(--font_kodchasan-Bold);
-    font-size: 40px;
-    letter-spacing: 8px;
+    font-size: 30px;
+    letter-spacing: 4px;
 }
 
 .line_name_mision {
     width: 30px;
-    height: 2px;
+    height: 1px;
     background: var(--color_blanco);
     margin: auto;
 }
 
 .city_name_mision {
     font-family: var(--font_Kodchasan-Regular);
-    font-size: 17px;
-    letter-spacing: 5px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: lighter;
 }
 
 .button_mision {
@@ -503,5 +505,29 @@
     width: 100px;
     text-align: center;
     border-radius: 3px;
+    padding: 2px 0;
+    font-size: 13px;
+    font-weight: lighter;
 }
 /* fin card misiones */
+/* inicio productos index */
+.container_swiper_tienda {
+    border: 1px solid var(--color_principal);
+    border-radius: 10px;
+    margin: 20px auto 0 auto;
+    width: 250px;
+}
+
+.img_producto_tienda {
+    margin-top: 10px;
+}
+
+.mensaje_producto {
+    font-size: 12px;
+}
+
+.mensaje_estado_tienda {
+    padding: 2px 15px;
+    border-radius: 4px;
+}
+/* fin productos index */
