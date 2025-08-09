@@ -531,3 +531,13 @@
     border-radius: 4px;
 }
 /* fin productos index */
+/* inicio footer */
+.footer_inicio {
+    font-family: var(--font_Kodchasan-Regular);
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
+    font-size: 11px;
+    text-align: center;
+    padding: 5px 20px;
+}
+/* fin footer */
