@@ -530,6 +530,10 @@
     padding: 2px 15px;
     border-radius: 4px;
 }
+
+.icon_flecha_tienda_inicio {
+    color: #ffffff96 !important;
+}
 /* fin productos index */
 /* inicio footer */
 .footer_inicio {
@@ -541,3 +545,21 @@
     padding: 5px 20px;
 }
 /* fin footer */
+
+/* 400px */
+@media (min-width: 400px) {
+    .container_banner {
+        height: 230px;
+    }
+
+    .title_banner {
+        font-size: 25px;
+    }
+
+    .container_swiper_misiones {
+        width: 380px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}

@@ -4,5 +4,9 @@ const swiper_tienda = new Swiper('#slide_tienda', {
     autoplay: {
         delay: 5000,
         disableOnIteraction: false
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev' 
     }
 });

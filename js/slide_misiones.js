@@ -4,5 +4,9 @@ const swiper_misiones = new Swiper('#slide_misiones', {
     autoplay: {
         delay: 5000,
         disableOnIteraction: false
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev' 
     }
 });
