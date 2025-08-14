@@ -563,3 +563,56 @@
         margin-bottom: 30px;
     }
 }
+
+/* 424px */
+@media (min-width: 424px) {
+    .titulo {
+        font-size: 23px;
+    }
+
+    .title_banner {
+        font-size: 28px;
+    }
+
+    .button_banner_donar {
+        font-size: 16px;
+    }
+
+    .title_quienes_somos, .title_misiones, .title_tienda {
+        font-size: 22px;
+    }
+
+    .container_card_misioneros {
+        width: 280px;
+    }
+
+    #slide_misiones {
+        width: 380px;
+    }
+}
+
+/* 520px */
+@media (min-width: 520px) {
+    .titulo {
+        font-size: 25px;
+    }
+
+    .container_banner {
+        height: 270px;
+    }
+
+    .title_banner {
+        font-size: 33px;
+    }
+
+    .container_card_misioneros {
+        width: 240px;
+    }
+
+    .misioneros_inicio {
+        flex-wrap: wrap;
+        gap: 5px;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
