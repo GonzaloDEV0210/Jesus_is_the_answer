@@ -512,10 +512,13 @@
 /* fin card misiones */
 /* inicio productos index */
 .container_swiper_tienda {
-    border: 1px solid var(--color_principal);
-    border-radius: 10px;
     margin: 20px auto 0 auto;
     width: 250px;
+}
+
+.container_card_tienda {
+    border: 1px solid var(--color_principal);
+    border-radius: 10px;
 }
 
 .img_producto_tienda {
@@ -614,5 +617,19 @@
         gap: 5px;
         flex-direction: row;
         justify-content: center;
+    }
+}
+
+/* 550px */
+@media (min-width: 550px) {
+    .container_swiper_tienda {
+        width: 500px;
+    }
+}
+
+/* 570px */
+@media (min-width: 570px) {
+    .title_banner {
+        width: 400px;
     }
 }

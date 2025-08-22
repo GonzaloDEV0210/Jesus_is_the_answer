@@ -8,5 +8,11 @@ const swiper_tienda = new Swiper('#slide_tienda', {
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev' 
+    },
+    breakpoints: {
+        550: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+        }
     }
 });
