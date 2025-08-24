@@ -77,9 +77,9 @@
     background-color: rgb(243, 243, 243);
     position: absolute;
     top: 0;
-    height: 100vh;
+    height: 100dvh;
     left: 0;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -109,6 +109,10 @@
     animation: visibilizar_nav_movil 1s forwards;
 }
 
+.no_scroll {
+    overflow: hidden;
+}
+
 @keyframes visibilizar_nav_movil {
     from {
         left: 100%;
@@ -120,8 +124,11 @@
         opacity: 1;
     }
 }
-/* ------------------ */
 
+.menu_grande {
+    display: none;
+}
+/* ------------------ */
 .icon_cerrar_nav_movil {
     width: 30px;
     position: absolute;
@@ -631,5 +638,25 @@
 @media (min-width: 570px) {
     .title_banner {
         width: 400px;
+    }
+}
+
+/* 700px */
+@media (min-width: 700px) {
+    .title_banner {
+        font-size: 38px;
+        width: 450px;
+    }
+
+    .container_logo {
+        width: 85px;
+    }
+
+    .nav_movil, .container_barra {
+        display: none;
+    }
+    
+    .menu_grande {
+        display: inline-block;
     }
 }
