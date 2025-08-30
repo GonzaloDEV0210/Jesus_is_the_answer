@@ -658,5 +658,90 @@
     
     .menu_grande {
         display: inline-block;
+        font-family: var(--font_Kodchasan-Regular);
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .menu_grande_icono {
+        width: 18px;
+    }
+
+    .mg_icono_idioma {
+        width: 15px;
+    }
+
+    .mg_icono_flecha_idioma {
+        width: 15px;
+    }
+
+    .mg_item_idioma {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .mg_name_idioma {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .mg_idioma, .mg_select_idioma {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .mg_idioma {
+        text-decoration: none;
+        color: var(--color_negro);
+    }
+
+    .menu_grande_idiomas {
+        position: relative;
+    }
+
+    .mg_dpg_idiomas {
+        position: absolute;
+        background-color: #eeeeee;
+        /* padding: 5px 18px 5px 2px; */
+        border-radius: 5px;
+        height: 0px;
+        overflow: hidden;
+    }
+
+    .mg_select_idioma {
+        z-index: 1;
+    }
+
+    .mg_dpg_idiomas_abrir {
+        animation: abrirdpg 0.3s ease forwards;
+    }
+
+    @keyframes abrirdpg {
+        0% {
+            height: 0px;
+        } 100% {
+            height: 27px;
+            padding: 5px 18px 5px 2px;
+        }
+    }
+
+    .mg_dpg_idiomas_cerrar {
+        animation: cerrardpg 0.3s ease forwards;
+    }
+
+    @keyframes cerrardpg {
+        0% {
+            height: 27px;
+            padding: 5px 18px 5px 2px;
+        } 100% {
+            height: 0px;
+        }
+    }
+
+    .mg_item_donar {
+        display: none;
     }
 }
