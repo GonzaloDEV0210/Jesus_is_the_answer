@@ -211,6 +211,10 @@
     width: 100%;
 }
 
+.nav_desktop {
+    display: none;
+}
+
 .lenguage_combo_movil {
     list-style: none;
     position: absolute;
@@ -330,6 +334,10 @@
     text-align: center;
     font-size: 14px;
     line-height: 25px;
+}
+
+.container_card_lideres {
+    margin: 15px auto 0 auto;
 }
 
 .container_text_biblical {
@@ -601,6 +609,13 @@
     }
 }
 
+@media (min-width: 500px) {
+    .container_text_biblical {
+        width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+
 /* 520px */
 @media (min-width: 520px) {
     .titulo {
@@ -649,6 +664,12 @@
     }
 
     .container_logo {
+        width: 166.3px;
+        text-align: center;
+    }
+
+    .img_logo {
+        height: 100%;
         width: 85px;
     }
 
@@ -743,5 +764,140 @@
 
     .mg_item_donar {
         display: none;
+    }
+
+    .container_text_biblical {
+        width: 520px;
+        margin-bottom: 30px;
+    }
+
+    .nav_desktop {
+        display: block;
+        font-family: var(--font_Kodchasan-SemiBold);
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .list_nav_desktop {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .link_nav_desktop {
+        text-decoration: none;
+        list-style: none;
+        color: var(--color_negro);
+        transition: .3s;
+        &:hover {
+            color: var(--color_principal);
+        }
+    }
+
+    .link_nav_desktop_active {
+        color: var(--color_principal);
+    }
+}
+
+@media (min-width: 1000px) {
+    .container_banner {
+        height: 310px;
+    }
+
+    .img_logo {
+        width: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container_quienes_somos,  .container_misiones_inicio, .container_tienda_inicio {
+        width: 1180px;
+        margin: 20px auto 20px auto;
+    }
+
+    .container_banner {
+        height: 350px;
+    }
+
+    .titulo {
+        font-size: 30px;
+    }
+
+    .img_logo {
+        width: 120px;
+    }
+
+    .title_banner {
+        font-size: 50px;
+        width: 540px;
+    }
+
+    .button_banner_donar {
+        font-size: 22px;
+    }
+
+    .link_nav_desktop {
+        font-size: 18px;
+    }
+
+    .paragraph_quienes_somos, .paragraph_misiones, .paragraph_tienda {
+        font-size: 16px;
+    }
+
+    .title_quienes_somos, .title_misiones, .title_tienda {
+        font-size: 25px;
+    }
+
+    .line_title {
+        width: 50px;
+    }
+
+    .container_card_misioneros {
+        width: 300px;
+    }
+
+    .container_img_nacionalidad {
+        height: 450px;
+    }
+
+    .nombre_misionero {
+        font-size: 16px;
+    }
+
+    .cargo_misionero {
+        font-size: 15px;
+    }
+
+    .container_text_biblical {
+        font-size: 16px;
+        width: 600px;
+    }
+
+    #slide_misiones, .container_swiper_misiones {
+        width: 680px;
+    }
+
+    .back_ciudad_misiones {
+        height: 380px;
+    }
+
+    .bandera_misiones {
+        width: 40px;
+    }
+
+    .mision_year {
+        font-size: 15px;
+    }
+
+    .name_pais_mision {
+        font-size: 35px;
+    }
+
+    .button_mision {
+        font-size: 17px;
+    }
+
+    .container_swiper_tienda {
+        width: 1050px;
     }
 }
