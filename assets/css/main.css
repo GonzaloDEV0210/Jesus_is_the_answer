@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Inter */
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf');
+  font-weight: 100 900; /* porque es variable */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter Italic';
+  src: url('../fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+/* Playfair Display */
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display Italic';
+  src: url('../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+:root {
+    --color_negro: #000000;
+    --color_blanco: #FFFFFF;
+    --color_gris_claro: #F5F5F5;
+    --color_gris_medio: #737373;
+    --color_bordes: #E5E5E5;
+    --color_fondo_oscuro: #0A0A0A;
+    --color_claro: #FAFAFA;
+    --color_principal: #D99D7B;
+    --font_inter: 'Inter';
+    --font_inter_italic: 'Inter Italic';
+    --font_play: 'Playfair Display';
+    --font_play_italic: 'Playfair Display Italic';
+}
