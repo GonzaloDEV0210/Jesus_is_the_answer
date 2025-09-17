@@ -173,6 +173,42 @@
 .option_language_selected {
     width: 12px;
 }
-
-
 /* ----- */
+.cont_banner {
+    background: var(--color_fondo_banner);
+    background: linear-gradient(134deg,rgba(255, 243, 237, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 243, 237, 1) 100%);
+}
+
+.cont_banner_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner_button {
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    margin: auto;
+    font-family: var(--font_inter);
+    font-weight: 500;
+}
+
+.banner_button_misiones {
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
+    border: 1px solid var(--color_principal);
+}
+
+.banner_button_video {
+    background-color: var(--color_blanco);
+    border: 1px solid var(--color_bordes);
+}
+
+.banner_button img {
+    width: 13px;
+}
