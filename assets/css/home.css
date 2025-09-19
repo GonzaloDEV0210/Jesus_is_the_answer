@@ -42,6 +42,7 @@
     border-bottom: 1px solid var(--color_bordes);
     position: absolute;
     top: -600%;
+    background-color: var(--color_blanco);
 }
 
 .abrir_nav_movil {
@@ -191,7 +192,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 10px;
+    padding: 13px;
     border-radius: 6px;
     margin: auto;
     font-family: var(--font_inter);
@@ -212,3 +213,115 @@
 .banner_button img {
     width: 13px;
 }
+
+/* section banner 1*/
+.cont_banner {
+    padding: 80px 15px 80px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cont_banner_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cont_banner_title {
+    font-family: var(--font_play);
+    font-size: 38px;
+    line-height: 45px;
+}
+
+.cont_banner_title span {
+    color: var(--color_principal);
+}
+
+.cont_banner_paragraph {
+    color: var(--color_gris_medio);
+    font-family: var(--font_inter);
+    font-size: 20px;
+    letter-spacing: .5px;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+/* fin section banner */
+/* section banner 2 */
+.cont_banner_2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 16px;
+}
+
+.cont_numbers_data {
+    width: 135px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.numbers_data {
+    font-weight: bold;
+    font-family: var(--font_inter);
+    color: var(--color_principal);
+    font-size: 23px;
+}
+
+.name_data {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 14px;
+}
+/* fin section banner 2 */
+/* section banner 3 */
+.cont_aside_card {
+    background-color: var(--color_blanco);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.44);
+    border-radius: 20px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.top_aside {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo_aside {
+    width: 35px;
+}
+
+.title_aside {
+    font-family: var(--font_play);
+    font-size: 20px;
+}
+
+.title_complete_aside {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.text_biblical_aside {
+    font-family: var(--font_inter);
+    font-style: normal;
+    color: var(--color_gris_medio);
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.name_text_biblical_aside {
+    font-family: var(--font_inter);
+    font-size: 14px;
+    text-align: end;
+}
+/* fin section banner 3 */
