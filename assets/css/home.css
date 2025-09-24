@@ -2,8 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: relative;
-    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    background-color: var(--color_blanco);
+    padding: 20px 0;
     border-bottom: 1px solid var(--color_bordes);
 }
 
@@ -187,7 +189,7 @@
 }
 
 .banner_button {
-    width: 290px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -216,7 +218,7 @@
 
 /* section banner 1*/
 .cont_banner {
-    padding: 80px 15px 80px 15px;
+    padding: 150px 15px 80px 15px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -398,3 +400,337 @@
     line-height: 25px;
 }
 /* fin cont servimos */
+/* cont unete */
+.cont_unete {
+    padding: 60px 15px;
+}
+
+.conta_card_unete {
+    background-color: var(--color_fondo_banner);
+    border-radius: 30px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.title_card_unete {
+    font-family: var(--font_play);
+    font-size: 30px;
+    text-align: center;
+}
+
+.paragraph_card_unete {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    text-align: center;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.cont_buttons_card_unete {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button_card_unete {
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 0px;
+    border-radius: 5px;
+    font-family: var(--font_inter);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button_card_unete_1 {
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
+}
+
+.button_card_unete_2 {
+    background-color: var(--color_blanco);
+    border: 1px solid var(--color_bordes);
+    color: var(--color_fondo_oscuro);
+}
+/* fin cont unete */
+/* cont misiones */
+.cont_misiones {
+    background-color: var(--color_claro);
+    padding: 60px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cont_misiones_title_par {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title_misiones {
+    font-family: var(--font_play);
+    font-size: 32px;
+    text-align: center;
+}
+
+.paragraph_misiones {
+    font-family: var(--font_inter);
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 10px;
+    color: var(--color_gris_medio);
+}
+
+.cont_cards_misiones {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card_misiones {
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.14);
+    border: 1px solid var(--color_bordes);
+    border-radius: 8px;
+}
+
+.cont_data_misiones {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.title_data_misiones {
+    font-family: var(--font_play);
+    font-size: 19px;
+}
+
+.paragraph_data_misiones {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+.link_data_misiones {
+    text-decoration: none;
+    font-family: var(--font_inter);
+    color: var(--color_fondo_oscuro);
+    border: 2px solid var(--color_bordes);
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 7px;
+}
+
+.cont_img_misiones {
+    height: 180px;
+}
+
+.img_misiones {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.button_misiones_todo {
+    background-color: var(--color_principal);
+    text-decoration: none;
+    color: var(--color_blanco);
+    font-family: var(--font_inter);
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    padding: 12px;
+    margin: auto;
+    border-radius: 8px;
+    gap: 15px;
+    font-weight: 500;
+}
+
+.icon_flecha_ver_misiones {
+    width: 13px;
+}
+/* fin cont misiones */
+/* footer */
+.line_separador {
+    width: 100%;
+    height: 1px;
+    background-color: var(--color_bordes);
+}
+
+.footer {
+    background-color: var(--color_claro);
+    padding: 50px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cont_footer_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer_logo_name {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo_footer {
+    width: 35px;
+}
+
+.name_footer {
+    font-family: var(--font_play);
+    margin-top: -5px;
+    font-size: 20px;
+}
+
+.paragraph_footer, .paragraph_footer_5 {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cont_footer_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title_footer_2, .title_footer_3, .title_footer_4, .title_footer_5 {
+    font-family: var(--font_play);
+    font-size: 17px;
+}
+
+.list_options_footer_2 {
+    list-style: none;
+    font-family: var(--font_inter);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.option_footer_2 {
+    color: var(--color_gris_medio);
+    text-decoration: none;
+}
+
+.cont_footer_3, .cont_footer_4, .cont_fotter_5 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.email_footer_3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo_email_footer {
+    width: 17px;
+}
+
+.direction_email_footer_3 {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.icon_face_4, .icon_inst_4 {
+    width: 17px;
+}
+
+.footer_derechos {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer_6 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer_hecho {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 14px;
+    display: inline-block;
+    margin: auto;
+}
+
+.icon_corazon_footer {
+    width: 15px;
+}
+/* fin footer */
+/* RESPONSIVE DESIGN */
+@media (min-width: 380px) {
+    .header_index {
+        justify-content: space-between;
+        /* padding-left: 20px;
+        padding-right: 20px; */
+    }
+
+    .cont_logo_title {
+        margin-left: 20px;
+    }
+
+    .icon_barra_menu {
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 420px) {
+    .cont_banner_2 {
+        column-gap: 60px;
+        margin: 25px 0 20px 0;
+    }
+
+    .cont_data_misiones {
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 450px) {
+    .cont_banner_2 {
+        column-gap: 80px;
+    }
+
+    .cont_data_misiones {
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 480px) {
+    .cont_banner_2 {
+        column-gap: 100px;
+    }
+
+    .paragraph_service {
+        font-size: 17px;
+    }
+}
