@@ -572,7 +572,7 @@
 
 .footer {
     background-color: var(--color_claro);
-    padding: 50px 15px 15px 15px;
+    padding: 50px 15px 40px 15px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -664,12 +664,13 @@
     color: var(--color_gris_medio);
     font-size: 14px;
     line-height: 20px;
+    text-align: center;
 }
 
 .footer_6 {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
 .footer_hecho {
@@ -732,5 +733,276 @@
 
     .paragraph_service {
         font-size: 17px;
+    }
+}
+
+@media (min-width: 640px) {
+    .cont_banner_buttons {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .banner_button {
+        margin: 0;
+    }
+
+    .banner_button_misiones {
+        width: 240px;
+    }
+
+    .banner_button_video {
+        width: 160px;
+    }
+
+    .cont_numbers_data {
+        width: 200px;
+    }
+
+    .cont_buttons_card_unete {
+        flex-direction: row;
+    }
+
+    .button_card_unete {
+        width: 50%;
+    }
+
+    .cont_banner_paragraph {
+        width: 520px;
+    }
+}
+
+@media (min-width: 700px) {
+    .title_sc {
+        font-size: 20px;
+    }
+
+    .cont_banner, .cont_service, .cont_unete, .cont_misiones, .footer {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav_movil, .cont_icon_menu_movil {
+        display: none;
+    }
+
+    .nav_desktop {
+        display: inline-block;
+    }
+
+    .list_nav_desktop {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .option_nav {
+        text-align: center;
+    }
+
+    .option_nav_link, .option_nav {
+        font-family: var(--font_inter);
+    }
+
+    .cont_logo_title {
+        gap: 15px;
+    }
+
+    .cont_options_combo_language_d {
+        width: 100%;
+    }
+
+    .option_combo_language_d_select {
+        background-color: var(--color_principal);
+        color: var(--color_blanco);
+    }
+
+    .cont_banner_title {
+        font-size: 60px;
+        line-height: normal;
+    }
+
+    .cont_banner_paragraph {
+        margin-top: -10px;
+    }
+
+    .cont_banner_2 {
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        column-gap: normal;
+        gap: 10px;
+    }
+
+    .numbers_data {
+        font-size: 30px;
+    }
+
+    .cont_service_cards {
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .service_card {
+        padding: 25px 20px;
+        width: 33%;
+    }
+
+    .banner_button {
+        font-size: 14px;
+    }
+
+    .title_sc {
+        text-align: center;
+    }
+
+    .title_service, .title_card_unete, .title_misiones {
+        font-size: 36px;
+    }
+
+    .paragraph_service {
+        font-size: 16px;
+    }
+
+    .cont_cards_misiones {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card_misiones {
+        width: 344px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .cont_footer_1 {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
+    .cont_footer_2 {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+
+    .cont_footer_3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .cont_footer_4 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    .cont_fotter_5 {
+        grid-column: 4/5;
+        grid-row: 1/3;
+    }
+
+    .line_separador {
+        grid-column: 1/5;
+        grid-row: 3/4;
+    }
+
+    .footer_6 {
+        grid-column: 1/5;
+        grid-row: 4/5;
+        flex-direction: row;
+    }
+
+    .footer_hecho {
+        margin-right: 0;
+    }
+
+    .option_nav_link {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 800px) {
+    .cont_buttons_card_unete {
+        justify-content: center;
+    }
+
+    .button_card_unete {
+        width: 256px;
+    }
+
+    .cont_cards_misiones {
+        justify-content: space-between;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+
+@media (min-width: 850px) {
+    .cont_cards_misiones {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .card_misiones {
+        width: 383px;
+    }
+}
+
+@media (min-width: 850px) {
+    .card_misiones {
+        width: 398px;
+    }
+}
+
+@media (min-width: 900px) {
+    .card_misiones {
+        width: 408px;
+    }
+}
+
+@media (min-width: 950px) {
+    .paragraph_service {
+        width: 672px;
+        margin: auto;
+    }
+
+    .paragraph_card_unete {
+        width: 672px;
+        margin: auto;
+    }
+
+    .card_misiones {
+        width: 433px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .card_misiones {
+        width: 458px;
+    }
+}
+
+@media (min-width: 1020px) {
+    .card_misiones {
+        width: 468px;
+    }
+}
+
+@media (min-width: 1040px) {
+    .cont_cards_misiones {
+        gap: 5px;
+    }
+
+    .card_misiones {
+        width: 32%;
     }
 }
