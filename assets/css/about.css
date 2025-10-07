@@ -1,0 +1,126 @@
+.cont_nuestra_historia_cont_mision_vision {
+    padding: 64px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.cont_banner_paragraph_qs, .cont_banner_title_qs {
+    text-align: center;
+}
+
+.title_nuestra_historia {
+    font-size: 30px;
+    font-family: var(--font_play);
+    margin-bottom: 24px;
+}
+
+.cont_paragraph_nuestra_historia {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.paragraph_1_nuestra_historia, .paragraph_2_nuestra_historia, .paragraph_3_nuestra_historia {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    line-height: 25px;
+}
+
+.cont_mision_vision {
+    background-color: var(--color_gris_claro);
+}
+
+.cont_mision_vision {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.title_mv {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-family: var(--font_play);
+}
+
+.paragraph_mv {
+    font-size: 16px;
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    line-height: 25px;
+}
+
+.cont_nuestros_valores, .cont_nuestro_equipo {
+    background-color: var(--color_claro);
+    padding: 64px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.cont_nuestro_equipo {
+    background-color: var(--color_blanco);
+    border-bottom: 1px solid var(--color_bordes);
+}
+
+.title_nuestros_valores, .title_nuestro_equipo {
+    font-size: 30px;
+    font-family: var(--font_play);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.paragraph_nuestros_valores, .paragraph_nuestro_equipo {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    text-align: center;
+}
+
+.cont_card_nuestros_valores, .cont_cards_nuestro_equipo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card_nuestros_valores, .card_nuestro_equipo {
+    text-align: center;
+    background-color: var(--color_blanco);
+    border: 1px solid var(--color_bordes);
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.icon_nuestros_valores {
+    width: 48px;
+    margin-bottom: 16px;
+}
+
+.title_card_nuestros_valores, .title_card_nuestro_equipo {
+    font-size: 18px;
+    font-family: var(--font_play);
+    margin-bottom: 8px;
+}
+
+.paragraph_card_nuestros_valores, .paragraph_card_nuestro_equipo {
+    font-size: 14px;
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    line-height: 20px;
+}
+
+.perfil_lider_card_nuestro_equipo {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.subtitle_card_cargo_nuestro_equipo {
+    font-size: 14px;
+    font-family: var(--font_inter);
+    margin-bottom: 16px;
+    color: var(--color_gris_medio);
+    font-weight: 400;
+    line-height: 20px;
+}
