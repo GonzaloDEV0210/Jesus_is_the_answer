@@ -124,3 +124,178 @@
     font-weight: 400;
     line-height: 20px;
 }
+
+@media (min-width: 700px) {
+    .cont_nuestra_historia_cont_mision_vision, .cont_nuestros_valores, .cont_nuestro_equipo {
+        padding: 64px 25px;
+    }
+
+    .cont_banner_paragraph_qs {
+        width: auto;
+    }
+
+    .cont_banner_qs {
+        padding-top: 130px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 700px) {
+    .cont_banner_qs {
+        padding-top: 150px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .cont_card_nuestros_valores {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cont_cards_nuestro_equipo {
+        flex-direction: row;
+    }
+
+    .card_nuestros_valores {
+        width: 48%;
+    }
+}
+
+@media (min-width: 900px) {
+    .cont_cards_nuestro_equipo {
+        justify-content: center;
+    }
+    
+    .card_nuestro_equipo {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1020px) {
+    .cont_banner_qs {
+        display: block;
+    }
+
+    .cont_banner_paragraph_qs {
+        width: 768px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cont_nuestra_historia_cont_mision_vision {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .cont_nuestra_historia {
+        width: 50%;
+    }
+
+    .cont_mision_vision {
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    .card_nuestros_valores {
+        width: 24%;
+    }
+
+    .cont_card_nuestros_valores {
+        gap: .8rem;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1250px) {
+    .card_nuestro_equipo {
+        width: 32%;
+    }
+
+    .cont_nuestra_historia_cont_mision_vision, .cont_nuestros_valores, .cont_nuestro_equipo {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .cont_mision_vision {
+        margin-top: 20px;
+    }
+
+    .cont_nuestra_historia_cont_mision_vision, .cont_nuestros_valores, .cont_nuestro_equipo {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+}
+
+@media (min-width: 1350px) {
+    .cont_nuestra_historia_cont_mision_vision, .cont_nuestros_valores, .cont_nuestro_equipo {
+        padding-left: 67px;
+        padding-right: 67px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .cont_nuestra_historia_cont_mision_vision, .cont_nuestros_valores, .cont_nuestro_equipo {
+        padding-left: 92px;
+        padding-right: 92px;
+    }
+}
+
+@media (min-width: 1450px) {
+    .cont_nuestra_historia_cont_mision_vision, .cont_nuestros_valores, .cont_nuestro_equipo {
+        padding-left: 117px;
+        padding-right: 117px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .cont_nuestra_historia_cont_mision_vision, .cont_nuestros_valores, .cont_nuestro_equipo {
+        padding-left: 137px;
+        padding-right: 137px;
+    }
+}
+
+@media (min-width: 1550px) {
+    .cont_nuestra_historia_cont_mision_vision, .cont_nuestros_valores, .cont_nuestro_equipo {
+        padding-left: 157px;
+        padding-right: 157px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .cont_nuestra_historia_cont_mision_vision, .cont_nuestros_valores, .cont_nuestro_equipo {
+        padding-left: 177px;
+        padding-right: 177px;
+    }
+}
+
+@media (min-width: 1650px) {
+    .cont_nuestra_historia_cont_mision_vision, .cont_nuestros_valores, .cont_nuestro_equipo {
+        padding-left: 197px;
+        padding-right: 197px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .cont_nuestra_historia_cont_mision_vision, .cont_nuestros_valores, .cont_nuestro_equipo {
+        padding-left: 217px;
+        padding-right: 217px;
+    }
+}
+
+@media (min-width: 1750px) {
+    .cont_nuestra_historia_cont_mision_vision, .cont_nuestros_valores, .cont_nuestro_equipo {
+        padding-left: 237px;
+        padding-right: 237px;
+    }
+}
+
+@media (min-width: 18000px) {
+    .cont_nuestra_historia_cont_mision_vision, .cont_nuestros_valores, .cont_nuestro_equipo {
+        padding-left: 257px;
+        padding-right: 257px;
+    }
+}
