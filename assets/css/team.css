@@ -1,0 +1,113 @@
+.cont_liderazgo_nuestro_equipo {
+    padding: 64px 5%;
+}
+
+.cont_title_paragraph_liderazgo_ne {
+    margin-bottom: 3rem;
+}
+
+.title_liderazgo_ne {
+    font-family: var(--font_play);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.paragraph_liderazgo_ne {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    text-align: center;
+    line-height: 25px;
+}
+
+.card_liderazgo_ne {
+    border: 1px solid var(--color_bordes);
+    border-radius: 10px;
+}
+
+.cont_cards_liderzago_ne {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cont_img_liderazgo_ne {
+    height: 256px;
+    position: relative;
+    z-index: -1;
+}
+
+.foto_liderzago_ne {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.cont_cantidad_misiones_liderazgo_ne {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
+    font-family: var(--font_inter);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.cont_contenido_card_liderazgo_ne {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.nombre_persona_liderazgo_ne {
+    font-size: 20px;
+    font-family: var(--font_play);
+}
+
+.cargo_persona_liderazgo_ne {
+    font-size: 16px;
+    font-family: var(--font_inter);
+    color: var(--color_principal);
+    font-weight: 500;
+}
+
+.cont_posicion_icon_liderazgo_ne, .cont_experiencia_icon_liderazgo_ne {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font_inter);
+    font-size: 14px;
+    color: var(--color_gris_medio);
+}
+
+.icon_posicion_liderazgo_ne, .icon_experiencia_liderazgo_ne {
+    width: 16px;
+}
+
+.cont_habilidades_liderazgo_ne {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.habilidades_liderazgo_ne {
+    font-family: var(--font_inter);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 10px;
+    border: 1px solid var(--color_bordes);
+    border-radius: 10px;
+}
+
+.paragraph_card_liderazgo_ne {
+    font-family: var(--font_inter);
+    font-size: 14px;
+    color: var(--color_gris_medio);
+    line-height: 23px;
+}
