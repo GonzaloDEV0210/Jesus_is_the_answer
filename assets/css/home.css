@@ -199,6 +199,8 @@
     margin: auto;
     font-family: var(--font_inter);
     font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 .banner_button_misiones {
@@ -655,8 +657,20 @@
     font-size: 14px;
 }
 
+.email_footer_4 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
 .icon_face_4, .icon_inst_4 {
     width: 17px;
+}
+
+.icon_inst_4_yt {
+    width: 21px;
+    margin-left: 8px;
+    margin-top: 4px;
 }
 
 .footer_derechos {
