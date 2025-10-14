@@ -1,4 +1,4 @@
-.cont_liderazgo_nuestro_equipo {
+.cont_liderazgo_nuestro_equipo, .cont_misioneros_campo, .cont_nuestro_impacto_ne {
     padding: 64px 5%;
 }
 
@@ -110,4 +110,70 @@
     font-size: 14px;
     color: var(--color_gris_medio);
     line-height: 23px;
+}
+
+.cont_misioneros_campo {
+    background-color: var(--color_claro);
+}
+
+.cont_img_misioneros_campo {
+    position: initial;
+}
+
+.cont_contenido_misioneros_campo_ne {
+    background-color: var(--color_blanco);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.cont_back_nuestro_impacto_ne {
+    background-color: var(--color_fondo_banner2);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.cont_img_item_nuestro_impacto_ne {
+    background-color: var(--color_fondo_icons);
+    display: inline-block;
+    padding: 13px 14px 10px 14px;
+    border-radius: 50%;
+}
+
+.cont_cards_items_caracteristicas {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card_item_nuestro_impacto_ne, .cont_datos_item_nuestro_impacto_ne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .7rem;
+}
+
+.icon_nuestro_impacto_ne {
+    width: 30px;
+}
+
+.icon_calendario_nuestro_impacto_ne {
+    width: 25px;
+}
+
+.icon_camara_nuestro_impacto_ne {
+    width: 27px;
+}
+
+.number_nuestro_impacto_item_ne {
+    display: block;
+    font-family: var(--font_inter);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.description_nuestro_impacto_item_ne {
+    font-family: var(--font_inter);
+    display: block;
+    font-size: 14px;
+    color: var(--color_gris_medio);
 }
