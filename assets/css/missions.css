@@ -13,3 +13,47 @@
 .cont_banner_paragraph_mis {
     margin: 0;
 }
+
+.cont_filtro_misiones {
+    padding: 32px 16px;
+    background-color: var(--color_claro);
+}
+
+.cont_icon_nombre_filtro_misiones {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.icon_filtro_misiones {
+    width: 15px;
+}
+
+.nombre_filtro_misiones {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cont_opciones_filtro_misiones {
+    list-style: none;
+    font-family: var(--font_inter);
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.opcion_filtro_misiones {
+    padding: 7px 12px;
+    border: 1px solid var(--color_bordes);
+    border-radius: 8px;
+}
+
+.opcion_filtro_misiones_selected {
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
+}

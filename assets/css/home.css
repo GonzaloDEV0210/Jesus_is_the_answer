@@ -703,6 +703,138 @@
     width: 15px;
 }
 /* fin footer */
+
+.cont_anuncio_proxima_mision {
+    background-color: var(--color_fondo_banner2);
+    padding: 48px 16px;
+}
+
+.back_anuncio_proxima_mision {
+    background-color: var(--color_blanco);
+    padding: 32px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cont_fecha_proximamente {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.proximamente_anuncio {
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
+    font-family: var(--font_inter);
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.fecha_mision {
+    background-color: var(--color_blanco);
+    border: 1px solid var(--color_bordes);
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-family: var(--font_inter);
+    text-align: center;
+}
+
+.title_proxima_mision {
+    font-family: var(--font_play);
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.cont_pais_participantes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cont_pais_proxima_mision, .cont_participantes_proxima_mision {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon_ubbicacion_proxima_mision, .icon_usuarios_proxima_mision, .icon_impacto {
+    width: 20px;
+}
+
+.nombre_pais_proxima_mision, .cantidad_participantes_proxima_mision {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 18px;
+}
+
+.paragraph_proxima_mision {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.cont_meta_impacto_proxima_mision {
+    background-color: var(--color_fondo_banner2);
+    border: 1px solid var(--color_bordes);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.cont_icon_title_meta_impacto {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.title_meta_impacto {
+    font-family: var(--font_play);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.paragraph_meta_impacto {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.cont_botones_meta_impacto {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.boton_meta_impacto {
+    width: 100%;
+    border: 1px solid var(--color_bordes);
+    text-decoration: none;
+    padding: 13px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: var(--font_inter);
+    font-size: 14px;
+}
+
+.boton_meta_impacto_aplicar {
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
+    font-weight: 550;
+}
+
+.boton_meta_impacto_detalles {
+    background-color: var(--color_blanco);
+    color: black;
+    font-weight: 550;
+}
+
 /* RESPONSIVE DESIGN */
 @media (min-width: 380px) {
     .header_index {
