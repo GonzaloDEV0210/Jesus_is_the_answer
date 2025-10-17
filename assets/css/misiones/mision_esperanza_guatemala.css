@@ -1,3 +1,8 @@
+.cont_banner_mision_person {
+    padding-bottom: 48px;
+    padding-top: 120px;
+}
+
 .cont_banner_1_mision_person {
     gap: 0;
 }
@@ -22,6 +27,7 @@
 .cont_caracteristicas_mision_person {
     display: flex;
     gap: 12px;
+    margin-bottom: 16px;
 }
 
 .carac_mision_person {
@@ -39,4 +45,170 @@
 
 .carac_mision_person_medica {
     border: 1px solid var(--color_bordes);
+}
+
+.title_mision_person {
+    font-family: var(--font_play);
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.cont_datos_mision_person {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cont_item_datos_mision_person {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon_datos_mision_person {
+    width: 15px;
+}
+
+.nombre_datos_mision_person {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 16px;
+}
+
+.back_cont_video_mision_person {
+    padding: 64px 16px 32px 16px;
+}
+
+.cont_video_mision_person {
+    border: 1px solid var(--color_bordes);
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.cont_icon_nombre_video_mision_person {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.icon_video_mision_person {
+    width: 18px;
+}
+
+.nombre_reproducir_video_mision_person {
+    font-size: 24px;
+    font-family: var(--font_play);
+    font-weight: 600;
+}
+
+.video_youtube_mision {
+    border-radius: 8px;
+}
+
+.icon_play_canal_youtube {
+    width: 15px;
+}
+
+.cont_link_canal_youtube {
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-family: var(--font_inter);
+    font-size: 14px;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+.back_cont_gallery_mision_person {
+    padding-top: 0;
+}
+
+.cont_icon_nombre_gallery_mision_person {
+    justify-content: center;
+}
+
+.nombre_gallery_mision_person {
+    font-size: 23px;
+}
+
+.foto_item_gallery_mision_person {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cont_fotos_gallery_mision_person {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 115px 115px 115px;
+    gap: 8px;
+}
+
+.link_modal_gallery_completa {
+    border: 1px solid var(--color_bordes);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: var(--color_fondo_oscuro);
+    font-family: var(--font_inter);
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.icon_gallery_completa {
+    width: 20px;
+}
+
+.cont_descripcion_mision_person {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.nombre_descripcion_mision_person {
+    display: block;
+}
+
+.paragraph_descripcion_mision_person {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 16px;
+    line-height: 1.625;
+}
+
+.cont_cards_objetivos_mision_person {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cont_item_objetivo_mision_person {
+    display: flex;
+    align-items: start;
+    gap: 8px;
+}
+
+.icon_item_objetivo_mision_person {
+    width: 18px;
+}
+
+.paragraph_item_objetivo_mision_person {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 16px;
 }
