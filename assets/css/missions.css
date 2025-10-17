@@ -11,7 +11,7 @@
 }
 
 .cont_banner_paragraph_mis {
-    margin: 0;
+    margin: auto;
 }
 
 .cont_filtro_misiones {
@@ -56,4 +56,236 @@
 .opcion_filtro_misiones_selected {
     background-color: var(--color_principal);
     color: var(--color_blanco);
+}
+
+.back_cont_misiones_m {
+    padding: 64px 16px;
+}
+
+.cont_cards_misiones_m {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.card_mision_m {
+    border: 1px solid var(--color_bordes);
+    border-radius: 10px;
+}
+
+.cont_img_card_mision {
+    position: relative;
+}
+
+.img_card_mision {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 192px;
+    object-fit: cover;
+}
+
+.estado_img_card_mision {
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
+    font-weight: 550;
+    padding: 2px 10px;
+    font-family: var(--font_inter);
+    font-size: 12px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.cont_contenido_card_mision {
+    padding: 24px;
+}
+
+.title_card_mision {
+    font-size: 20px;
+    font-family: var(--font_play);
+    padding-bottom: 24px;
+}
+
+.cont_datos_mision_card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cont_datos_item_mision_card {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.icon_ciduad_pais_card_mision, .icon_calendario_mision_card, .icon_users_mision_card {
+    width: 16px;
+}
+
+.nombre_ciudad_pais_mision_card, .nombre_usuarios_mision_card, .nombre_fecha_card_mision {
+    font-size: 14px;
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+}
+
+.paragraph_mision_card {
+    font-family: var(--font_inter);
+    font-size: 14px;
+    color: var(--color_gris_medio);
+    line-height: 20px;
+}
+
+.cont_impacto_mision_card {
+    margin-top: 16px;
+    background-color: var(--color_claro);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.title_impacto_mision_card {
+    font-family: var(--font_play);
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.paragraph_impacto_mision_card {
+    font-family: var(--font_inter);
+    font-size: 14px;
+    color: var(--color_gris_medio);
+}
+
+.button_detalles_mision_card {
+    margin-top: 16px;
+    border: 1px solid var(--color_bordes);
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--font_inter);
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+
+.back_cont_ser_parte {
+    background-color: var(--color_fondo_banner2);
+    padding: 48px 16px;
+    border-bottom: 1px solid var(--color_bordes);
+}
+
+.title_ser_parte {
+    font-family: var(--font_play);
+    font-size: 30px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.paragraph_ser_parte {
+    font-family: var(--font_inter);
+    font-size: 16px;
+    color: var(--color_gris_medio);
+    margin-bottom: 32px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.cont_buttons_ser_parte {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.button_ser_parte {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    font-family: var(--font_inter);
+    font-size: 14px;
+    text-align: center;
+}
+
+.button_ser_parte_aplicar {
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.button_ser_parte_donar {
+    background-color: var(--color_blanco);
+    color: black;
+    padding: 12px;
+    border: 1px solid var(--color_bordes);
+    border-radius: 5px;
+}
+
+@media (min-width: 640px) {
+    .cont_buttons_ser_parte {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .button_ser_parte {
+        width: auto;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media (min-width: 700px) {
+    .back_cont_ser_parte {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media (min-width: 750px) {
+    .cont_filtro_misiones, .back_cont_misiones_m {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media (min-width: 768px) {
+    .cont_cards_misiones_m {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .card_mision_m {
+        height: 100%;
+    }
+
+    .cont_banner_title_mis {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 850px) {
+    .paragraph_ser_parte {
+        width: 672px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cont_cards_misiones_m {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cont_filtro_misiones, .cont_cards_misiones_m {
+        width: 1216px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
