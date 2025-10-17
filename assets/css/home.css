@@ -832,7 +832,7 @@
 
 .boton_meta_impacto_detalles {
     background-color: var(--color_blanco);
-    color: black;
+    color: var(--color_fondo_oscuro);
     font-weight: 550;
 }
 

@@ -273,7 +273,7 @@
 .button_contactar_liderazgo_ne {
     background-color: var(--color_blanco);
     border:  1px solid var(--color_bordes);
-    color: black;
+    color: var(--color_fondo_oscuro);
 }
 
 .card_misioneros_campo_ne {

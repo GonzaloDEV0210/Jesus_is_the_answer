@@ -1,0 +1,42 @@
+.cont_banner_1_mision_person {
+    gap: 0;
+}
+
+.cont_volver_misiones {
+    text-decoration: none;
+    color: var(--color_fondo_oscuro);
+    font-family: var(--font_inter);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: 550;
+    padding: 8px 16px;
+    margin-bottom: 24px;
+}
+
+.icon_volver_misiones {
+    width: 12px;
+}
+
+.cont_caracteristicas_mision_person {
+    display: flex;
+    gap: 12px;
+}
+
+.carac_mision_person {
+    padding: 2px 10px;
+    font-size: 12px;
+    font-family: var(--font_inter);
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.carac_mision_person_completada {
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
+}
+
+.carac_mision_person_medica {
+    border: 1px solid var(--color_bordes);
+}
