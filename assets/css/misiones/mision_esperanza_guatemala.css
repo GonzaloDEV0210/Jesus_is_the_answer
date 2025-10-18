@@ -131,10 +131,6 @@
     padding-top: 0;
 }
 
-.cont_icon_nombre_gallery_mision_person {
-    justify-content: center;
-}
-
 .nombre_gallery_mision_person {
     font-size: 23px;
 }
@@ -194,7 +190,7 @@
 .cont_cards_objetivos_mision_person {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 25px;
 }
 
 .cont_item_objetivo_mision_person {
@@ -211,4 +207,78 @@
     font-family: var(--font_inter);
     color: var(--color_gris_medio);
     font-size: 16px;
+}
+
+.card_testimonio_mision_person {
+    display: flex;
+    gap: 24px;
+}
+
+.item_testimonio_mision_peru1 {
+    width: 25px;
+    height: auto;
+    background-color: var(--color_fondo_icons);
+}
+
+.cite_testimonio_mision_peru {
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: inline-block;
+    line-height: 25px;
+}
+
+.nombre_cargo_testimonio_mision_peru {
+    display: inline-block;
+    font-family: var(--font_inter);
+    font-size: 14px;
+    color: var(--color_gris_medio);
+    font-weight: 550;
+}
+
+.nombre_testimonio_mision_peru {
+    color: var(--color_fondo_oscuro);
+}
+
+.cont_impacto_info_general_mision_person {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: start;
+
+}
+
+.cont_impacto_info_general_mision_person2, .cont_impacto_info_general_mision_person3 {
+    margin-top: 16px;
+}
+
+.titulo_impacto_info_general_mision_person {
+    font-family: var(--font_play);
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.paragraph_impacto_info_general_mision_person {
+    font-family: var(--font_inter);
+    font-size: 14px;
+    color: var(--color_gris_medio);
+}
+
+.estado_info_general_mision_person, .categoria_info_general_mision_person {
+    font-family: var(--font_inter);
+    font-size: 12px;
+    background-color: var(--color_principal);
+    padding: 2px 10px;
+    display: inline-block;
+    color: var(--color_blanco);
+    border-radius: 10px;
+    font-weight: 550;
+}
+
+.categoria_info_general_mision_person {
+    background-color: var(--color_blanco);
+    color: var(--color_fondo_oscuro);
+    border: 1px solid var(--color_bordes);
 }
