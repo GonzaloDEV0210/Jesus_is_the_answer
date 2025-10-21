@@ -282,3 +282,325 @@
     color: var(--color_fondo_oscuro);
     border: 1px solid var(--color_bordes);
 }
+
+.cont_cards_equipo_liderazgo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
+.item_card_equipo_liderazgo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.perfil_card_equipo_liderazgo {
+    width: 45px;
+    border-radius: 50%;
+}
+
+.cont_datos_equipio_liderazgo {
+    font-family: var(--font_inter);
+}
+
+.cont_datos_equipio_liderazgo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2px;
+}
+
+.nombre_equipo_liderazgo {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color_fondo_oscuro);
+}
+
+.cargo_equipo_liderazgo {
+    font-size: 12px;
+    color: var(--color_gris_medio);
+    font-weight: 450;
+}
+
+.title_ser_parte_mp {
+    font-size: 24px;
+}
+
+.paragraph_ser_parte_mp {
+    text-align: start;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 19px;
+}
+
+@media (min-width: 366px) {
+    .cont_datos_mision_person {
+        display: grid;
+        grid-template-columns: 160px auto;
+        grid-template-rows: auto auto;
+    }
+
+    .cont_item_datos_mision_person_1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .cont_video_youtube_mision_person {
+        height: 170px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 138px 138px 138px;
+    }
+}
+
+@media (min-width: 400px){
+    .cont_video_youtube_mision_person {
+        height: 190px;
+    }
+
+    .cont_cards_objetivos_mision_person {
+        gap: 15px;
+    }
+
+    .cont_cards_objetivos_mision_person_comentarios {
+        gap: 24px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 155px 155px 155px;
+    }
+}
+
+@media (min-width: 447px) {
+    .cont_datos_mision_person {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: initial;
+    }
+
+    .cont_video_youtube_mision_person {
+        height: 210px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 180px 180px 180px;
+    }
+}
+
+@media (min-width: 500px) {
+    .cont_video_youtube_mision_person {
+        height: 236px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 205px 205px 205px;
+    }
+
+    .title_ser_parte_mp {
+        text-align: start;
+    }
+}
+
+@media (min-width: 550px) {
+    .cont_video_youtube_mision_person {
+        height: 263px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 230px 230px 230px;
+    }
+}
+
+@media (min-width: 600px) {
+    .cont_video_youtube_mision_person {
+        height: 291px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 255px 255px 255px;
+    }
+}
+
+@media (min-width: 650px) {
+    .cont_video_youtube_mision_person {
+        height: 320px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 272px 272px 272px;
+    }
+}
+
+@media (min-width: 700px) {
+    .cont_video_youtube_mision_person {
+        height: 348px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 297px 297px 297px;
+    }
+}
+
+@media (min-width: 700px) {
+    .cont_video_youtube_mision_person {
+        height: 376px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 322px 322px 322px;
+    }
+}
+
+@media (min-width: 768px) {
+    .title_mision_person_mp {
+        font-size: 48px;
+        line-height: 50px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 218px 218px;
+    }
+
+    .item_testimonio_mision_peru1 {
+        width: 5px;
+    }
+}
+
+@media (min-width: 850px) {
+    .cont_video_youtube_mision_person {
+        height: 423px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 245px 245px;
+    }
+
+    .paragraph_ser_parte_mp {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 900px) {
+    .cont_video_youtube_mision_person {
+        height: 451px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 262px 262px;
+    }
+}
+
+@media (min-width: 950px) {
+    .cont_video_youtube_mision_person {
+        height: 481px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 278px 278px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .cont_video_youtube_mision_person {
+        height: 511px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 295px 295px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cont_sections_mision_person_mp {
+        display: grid;
+        grid-template-columns: 67% 33%;
+        justify-content: center;
+        padding-bottom: 64px;
+        padding-top: 64px;
+    }
+
+    .section_1_mision_person {
+        grid-column: 1/2;
+    }
+
+    .section_2_mision_person {
+        grid-column: 2/3;
+    }
+
+    .paragraph_ser_parte_mp {
+        width: auto;
+    }
+
+    .back_cont_video_mision_person {
+        padding-top: 0;
+    }
+
+    .cont_video_youtube_mision_person {
+        height: 325px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 187px 187px;
+    }
+
+    .cont_buttons_ser_parte {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1050px) {
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 193px 193px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .cont_video_youtube_mision_person {
+        height: 375px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 205px 205px;
+    }
+}
+
+@media (min-width: 1150px) {
+    .cont_video_youtube_mision_person {
+        height: 395px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 215px 215px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cont_video_youtube_mision_person {
+        height: 425px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 226px 226px;
+    }
+}
+
+@media (min-width: 1250px) {
+    .cont_video_youtube_mision_person {
+        height: 445px;
+    }
+
+    .cont_fotos_gallery_mision_person {
+        grid-template-rows: 238px 238px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .cont_sections_mision_person_mp {
+        width: 1276px;
+        margin: auto;
+    }
+}
