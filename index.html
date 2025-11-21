@@ -307,7 +307,7 @@
                 <h1 class="title_modal">Aplicar para una Misión</h1>
             </div>
             <p class="paragraph_modal">Completa el formulario para aplicar a: Misión Pan de Vida en Colombia</p>
-            <form action="" method="post">
+            <form action="" method="post" class="form_modal">
                 <div class="cont_nombre_completo">
                     <div class="icon_texto">
                         <img src="/assets/images/icons/icon_user_gr.png" alt="Icono de un usuario" class="icon_form">
@@ -317,7 +317,7 @@
                 </div>
                 <div class="cont_correo_electronico">
                     <div class="icon_texto">
-                        <img src="/assets/images/icons/icon-calendario-gr.png" alt="Icono de un correo" class="icon_form">
+                        <img src="/assets/images/icons/icon-correo-electronico-gr.png" alt="Icono de un correo" class="icon_form">
                         <label for="" class="text_form">Correo Electrónico*</label>
                     </div>
                     <input type="email" class="input_form" placeholder="tu@email.com">
@@ -364,12 +364,12 @@
                         <img src="/assets/images/icons/icon_corazon_gr.png" alt="Icono de un corazon" class="icon_form">
                         <label for="" class="text_form">¿Por qué quieres participar?</label>
                     </div>
-                    <textarea name="" id="" class="input_participar" placeholder="Cuéntanos qué te motiva a ser parte de esta misión"></textarea>
+                    <textarea name="" id="" class="input_participar input_experiencia" placeholder="Cuéntanos qué te motiva a ser parte de esta misión"></textarea>
                 </div>
                 <div class="informacion_importante">
                     <div class="icon_texto">
-                        <img src="/assets/images/icons/icon_docs_mr.png" alt="Icono de un documento" class="icon_form">
-                        <span class="text_form">Información Importante</span>
+                        <img src="/assets/images/icons/icon_docs_mr.png" alt="Icono de un documento" class="icon_form icon_form_important">
+                        <span class="text_form text_form_important">Información Importante</span>
                     </div>
                     <ul class="list_informacion_importante">
                         <li>Todas las misiones requieren pasaporte vigente</li>
@@ -379,7 +379,8 @@
                     </ul>
                 </div>
                 <div class="cont_buttons">
-                    <!-- colocar botones -->
+                    <button class="button_modal">Cancelar</button>
+                    <button class="button_modal button_modal_enviar">Enviar Aplicación</button>
                 </div>
             </form>
         </div>
