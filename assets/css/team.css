@@ -320,10 +320,10 @@
         grid-row: 3/4;
     }
 
-    .card_misioneros_campo_ne6 {
+    /* .card_misioneros_campo_ne6 {
         grid-column: 2/3;
         grid-row: 3/4;
-    }
+    } */
 
     .cont_cards_items_caracteristicas {
         flex-direction: row;
@@ -362,10 +362,10 @@
         grid-row: 2/3;
     }
 
-    .card_item_palabras_nuestro_equipo_ne4 {
+    /* .card_item_palabras_nuestro_equipo_ne4 {
         grid-column: 2/3;
         grid-row: 2/3;
-    }
+    } */
 
     .cont_botones_sientes_llamado_ne {
         flex-direction: row;
@@ -415,10 +415,10 @@
         grid-row: 2/3;
     }
 
-    .card_misioneros_campo_ne6 {
+    /* .card_misioneros_campo_ne6 {
         grid-column: 3/4;
         grid-row: 2/3;
-    }
+    } */
 }
 
 @media (min-width: 1350px) {
