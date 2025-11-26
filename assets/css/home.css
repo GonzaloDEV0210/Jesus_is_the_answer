@@ -1444,10 +1444,13 @@
     top: 0;
     width: 100%;
     height: 100%;
-    display: none;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cont_modal_ocultar { 
+    display: none;
 }
 
 .back_black_modal {

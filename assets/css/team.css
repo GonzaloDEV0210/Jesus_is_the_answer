@@ -434,3 +434,7 @@
         margin: auto;
     }
 }
+
+.cont_modal_ocultar2 {
+    display: none;
+}
