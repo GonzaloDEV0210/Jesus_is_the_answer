@@ -72,6 +72,10 @@
 .card_mision_m {
     border: 1px solid var(--color_bordes);
     border-radius: 10px;
+    transition: .5s;
+    &:hover {
+        box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.14);;
+    }
 }
 
 .cont_img_card_mision {

@@ -164,6 +164,9 @@
     padding: 8px 16px;
     border-radius: 8px;
     margin-top: 16px;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .icon_gallery_completa {
@@ -631,6 +634,9 @@
     top: 30px;
     right: 20px;
     width: 20px;
+    &:hover {
+        cursor: pointer;
+    }
 }
 /* ──────────────────────────────── */
 /*   SWIPER PRINCIPAL (IMAGEN GRANDE)
