@@ -1,0 +1,128 @@
+.back_store {
+    background-color: var(--color_fondo_bajo);
+    padding: 160px 0 100px 0;
+}
+
+.container_card_store {
+    background-color: var(--color_blanco);
+    width: 90%;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 32px;
+}
+
+.icon_carrito_store {
+    width: 106px;
+}
+
+.icon_estrella_store {
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+.cont_imgs_store {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px 10px 0;
+}
+
+.prox_store {
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
+    font-family: var(--font_inter);
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.title_card_proximamente {
+    font-family: var(--font_play);
+    font-size: 36px;
+}
+
+.paragraph_card_proximamente {
+    font-family: var(--font_inter);
+    font-size: 18px;
+    text-align: center;
+    color: var(--color_gris_medio);
+    line-height: 28px;
+}
+
+.head_cardInterno_store {
+    display: flex;
+    align-items: center;
+}
+
+.cardinterno_store {
+    background-color: var(--color_fondo_bajo);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--color_fondo_banner2);
+}
+
+.icon_cardInterno {
+    width: 20px;
+}
+
+.title_cardInterno_store {
+    text-align: center;
+    font-family: var(--font_play);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.list_cardInterno_store {
+    list-style-position: inside;
+    font-family: var(--font_inter);
+    color: var(--color_gris_medio);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card2Interno_store {
+    background-color: var(--color_fondo_bajo);
+    border: 1px solid var(--color_fondo_banner2);
+    padding: 18px 16px;
+    border-radius: 15px;
+}
+
+.text_card2Interno_store {
+    display: inline-block;
+    text-align: center;
+    font-family: var(--font_inter);
+    font-size: 14px;
+    color: var(--color_gris_medio);
+}
+
+.link_volver_inicio_store {
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
+    text-decoration: none;
+    font-family: var(--font_inter);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 32px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.icon_volver_store {
+    width: 10px;
+    transform: rotate(180deg);
+}
