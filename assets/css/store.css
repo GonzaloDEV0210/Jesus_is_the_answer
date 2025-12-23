@@ -126,3 +126,9 @@
     width: 10px;
     transform: rotate(180deg);
 }
+
+@media (min-width: 850px) {
+    .container_card_store {
+        width: 804px;
+    }
+}
