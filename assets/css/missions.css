@@ -51,6 +51,16 @@
     padding: 7px 12px;
     border: 1px solid var(--color_bordes);
     border-radius: 8px;
+    background-color: var(--color_blanco);
+    transition: .2s;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.pais_selected {
+    background-color: var(--color_principal);
+    color: var(--color_blanco);
 }
 
 .opcion_filtro_misiones_selected {
