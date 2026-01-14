@@ -238,6 +238,11 @@
     border-radius: 5px;
 }
 
+.cont_images_guatemala img {
+    object-fit: cover;
+    height: 300px;
+}
+
 @media (min-width: 640px) {
     .cont_buttons_ser_parte {
         flex-direction: row;
@@ -262,6 +267,11 @@
     .cont_filtro_misiones, .back_cont_misiones_m {
         padding-left: 32px;
         padding-right: 32px;
+    }
+
+    .cont_images_guatemala img {
+        object-fit: cover;
+        height: 400px;
     }
 }
 
@@ -301,6 +311,11 @@
         width: 1216px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .cont_images_guatemala img {
+        object-fit: cover;
+        height: 500px;
     }
 }
 
