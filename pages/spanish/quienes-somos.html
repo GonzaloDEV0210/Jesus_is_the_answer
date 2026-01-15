@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/home.css">
     <link rel="stylesheet" href="/assets/css/about.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <header class="header_index">
@@ -149,6 +153,88 @@
                 </div>
             </div>
         </section>
+        <section class="pilares">
+            <div class="pilares-header">
+                <h2>Nuestros Pilares</h2>
+                <p>
+                Somos una comunidad llena del Espíritu que sostiene estos principios
+                fundamentales de fe
+                </p>
+            </div>
+
+            <div class="swiper pilares-swiper">
+                <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="pilar-card">
+                    <h3>Jesucristo</h3>
+                    <p>
+                        Creemos en la deidad y humanidad de Jesucristo, su nacimiento
+                        virginal, vida sin pecado, milagros, muerte sacrificial para
+                        salvarnos, y su resurrección y ascensión al cielo.
+                        Mateo 1:21, 23; Juan 1:1-2, 14; Hechos 1:2-3, 9; 2:22
+                    </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="pilar-card">
+                    <h3>La Salvación</h3>
+                    <p>
+                        Creemos en la pecaminosidad de toda la humanidad y la necesidad
+                        de salvación, disponible por la sangre de Jesucristo para todos
+                        los que creen y lo reciben como Salvador y Señor.
+                        Romanos 3:23, 6:23; Efesios 2:8-9; Tito 3:4-7
+                    </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="pilar-card">
+                    <h3>La Cruz</h3>
+                    <p>
+                        Creemos que la obra terminada de la cruz provee salvación y nuevo
+                        nacimiento a todo aquel que escoge recibir a Jesús como Salvador
+                        y Señor.
+                        2 Corintios 5:17; Gálatas 6:14
+                    </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="pilar-card">
+                    <h3>El Espíritu Santo</h3>
+                    <p>
+                        Creemos en el poder y la obra del Espíritu Santo en la vida del
+                        creyente, guiando, enseñando y dando poder para vivir una vida
+                        que glorifica a Dios.
+                        Juan 14:16-17, 26; Hechos 1:8
+                    </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="pilar-card">
+                        <h3>La Biblia</h3>
+                        <p>
+                        Creemos que la Biblia es la Palabra inspirada de Dios, autoridad
+                        suprema en fe y conducta, revelada por el Espíritu Santo y útil
+                        para enseñar, corregir y guiar la vida del creyente.
+                        2 Timoteo 3:16–17; Salmos 119:105
+                        </p>
+                    </div>
+                    </div>
+
+                </div>
+
+                <!-- Flechas -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+                <!-- Paginación -->
+                <div class="swiper-pagination"></div>
+            </div>
+            </section>
         <section class="cont_nuestro_equipo">
             <div class="cont_title_paragraph_nuestro_equipo">
                 <h2 class="title_nuestro_equipo">Nuestro Equipo</h2>
@@ -192,11 +278,11 @@
             <h4 class="title_footer_3">Contácto</h4>
             <div class="email_footer_3">
                 <img src="/assets/images/icons/icon-correo-electronico-gr.png" alt="icono de correo" class="logo_email_footer">
-                <a href="#" class="direction_email_footer_3">jesusintheanswer33.3@gmail.com</a>
+                <a href="mailto:jesusintheanswer33.3@gmail.com" target="_blank" class="direction_email_footer_3">jesusintheanswer33.3@gmail.com</a>
             </div>
             <div class="email_footer_3">
                 <img src="/assets/images/icons/icon_whatsapp.gr.png" alt="icono de telefono" class="logo_email_footer">
-                <a href="#" class="direction_email_footer_3">WhatsApp: +51 916785428 </a>
+                <a href="https://wa.me/51916785428" target="_blank" class="direction_email_footer_3">WhatsApp: +51 916785428 </a>
             </div>
         </div>
         <div class="cont_footer_4">
@@ -223,5 +309,45 @@
     </footer>
     <script src="/assets/js/combo_language.js"></script>
     <script src="/assets/js/combo_nav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+  const pilaresSwiper = new Swiper(".pilares-swiper", {
+    slidesPerView: 1,
+    spaceBetween: 24,
+    loop: true,
+    grabCursor: true,
+
+    autoplay: {
+      delay: 5000, // 5 segundos
+      disableOnInteraction: false, // sigue después de swipe o click
+      pauseOnMouseEnter: true // pausa cuando el mouse está encima
+    },
+
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+
+    breakpoints: {
+      640: {
+        slidesPerView: 1.2
+      },
+      768: {
+        slidesPerView: 2
+      },
+      1024: {
+        slidesPerView: 3
+      },
+      1300: {
+        slidesPerView: 4
+      }
+    }
+  });
+</script>
 </body>
 </html>
