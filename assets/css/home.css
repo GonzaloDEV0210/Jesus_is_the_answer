@@ -56,7 +56,9 @@
 @keyframes abrir_nav_movil {
     0% {
         top: -600%;
-    } 100% {
+    }
+
+    100% {
         top: 100%;
     }
 }
@@ -69,7 +71,9 @@
 @keyframes cerrar_nav_movil {
     0% {
         top: 100%;
-    } 100% {
+    }
+
+    100% {
         top: -600%;
     }
 }
@@ -153,7 +157,9 @@
     0% {
         visibility: hidden;
         height: 0;
-    } 100% {
+    }
+
+    100% {
         height: 74px;
         visibility: visible;
     }
@@ -167,6 +173,7 @@
     color: var(--color_gris_medio);
     text-decoration: none;
     transition: .3s;
+
     &:hover {
         background-color: var(--color_principal);
         color: var(--color_blanco);
@@ -177,10 +184,11 @@
 .option_language_selected {
     width: 12px;
 }
+
 /* ----- */
 .cont_banner {
     background: var(--color_fondo_banner);
-    background: linear-gradient(134deg,rgba(255, 243, 237, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 243, 237, 1) 100%);
+    background: linear-gradient(134deg, rgba(255, 243, 237, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 243, 237, 1) 100%);
 }
 
 .cont_banner_buttons {
@@ -252,6 +260,7 @@
     line-height: 29px;
     margin-bottom: 20px;
 }
+
 /* fin section banner */
 /* section banner 2 */
 .cont_banner_2 {
@@ -283,11 +292,12 @@
     color: var(--color_gris_medio);
     font-size: 14px;
 }
+
 /* fin section banner 2 */
 /* section banner 3 */
 .cont_aside_card {
     background-color: var(--color_blanco);
-    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.44);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.44);
     border-radius: 20px;
     padding: 40px 30px;
     display: flex;
@@ -330,6 +340,7 @@
     font-size: 14px;
     text-align: end;
 }
+
 /* fin section banner 3 */
 /* Cont servimos */
 .cont_service {
@@ -346,7 +357,7 @@
     text-align: center;
 }
 
-.paragraph_service { 
+.paragraph_service {
     font-family: var(--font_inter);
     color: var(--color_gris_medio);
     text-align: center;
@@ -364,7 +375,7 @@
     background-color: var(--color_blanco);
     border: 1px solid var(--color_bordes);
     border-radius: 12px;
-    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.14);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.14);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -403,6 +414,7 @@
     text-align: center;
     line-height: 25px;
 }
+
 /* fin cont servimos */
 /* cont unete */
 .cont_unete {
@@ -458,6 +470,7 @@
     border: 1px solid var(--color_bordes);
     color: var(--color_fondo_oscuro);
 }
+
 /* fin cont unete */
 /* cont misiones */
 .cont_misiones {
@@ -496,12 +509,14 @@
 }
 
 .card_misiones {
-    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.14);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.14);
     border: 1px solid var(--color_bordes);
     border-radius: 8px;
     transition: .5s;
+
     &:hover {
-        box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.14);;
+        box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.14);
+        ;
     }
 }
 
@@ -570,6 +585,7 @@
 .icon_flecha_ver_misiones {
     width: 13px;
 }
+
 /* fin cont misiones */
 /* footer */
 .line_separador {
@@ -608,7 +624,8 @@
     font-size: 20px;
 }
 
-.paragraph_footer, .paragraph_footer_5 {
+.paragraph_footer,
+.paragraph_footer_5 {
     font-family: var(--font_inter);
     color: var(--color_gris_medio);
     font-size: 14px;
@@ -621,7 +638,10 @@
     gap: 20px;
 }
 
-.title_footer_2, .title_footer_3, .title_footer_4, .title_footer_5 {
+.title_footer_2,
+.title_footer_3,
+.title_footer_4,
+.title_footer_5 {
     font-family: var(--font_play);
     font-size: 17px;
 }
@@ -640,7 +660,9 @@
     text-decoration: none;
 }
 
-.cont_footer_3, .cont_footer_4, .cont_fotter_5 {
+.cont_footer_3,
+.cont_footer_4,
+.cont_fotter_5 {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -669,7 +691,8 @@
     gap: 2px;
 }
 
-.icon_face_4, .icon_inst_4 {
+.icon_face_4,
+.icon_inst_4 {
     width: 17px;
 }
 
@@ -707,6 +730,7 @@
 .icon_corazon_footer {
     width: 15px;
 }
+
 /* fin footer */
 
 .cont_anuncio_proxima_mision {
@@ -721,7 +745,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    box-shadow: -1px 7px 14px -7px rgba(0,0,0,0.52);
+    box-shadow: -1px 7px 14px -7px rgba(0, 0, 0, 0.52);
 }
 
 .cont_fecha_proximamente {
@@ -762,17 +786,21 @@
     gap: 24px;
 }
 
-.cont_pais_proxima_mision, .cont_participantes_proxima_mision {
+.cont_pais_proxima_mision,
+.cont_participantes_proxima_mision {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.icon_ubbicacion_proxima_mision, .icon_usuarios_proxima_mision, .icon_impacto {
+.icon_ubbicacion_proxima_mision,
+.icon_usuarios_proxima_mision,
+.icon_impacto {
     width: 20px;
 }
 
-.nombre_pais_proxima_mision, .cantidad_participantes_proxima_mision {
+.nombre_pais_proxima_mision,
+.cantidad_participantes_proxima_mision {
     font-family: var(--font_inter);
     color: var(--color_gris_medio);
     font-size: 18px;
@@ -959,14 +987,20 @@
         font-size: 20px;
     }
 
-    .cont_banner, .cont_service, .cont_unete, .cont_misiones, .footer {
+    .cont_banner,
+    .cont_service,
+    .cont_unete,
+    .cont_misiones,
+    .footer {
         padding-left: 25px;
         padding-right: 25px;
     }
 }
 
 @media (min-width: 768px) {
-    .nav_movil, .cont_icon_menu_movil {
+
+    .nav_movil,
+    .cont_icon_menu_movil {
         display: none;
     }
 
@@ -985,7 +1019,8 @@
         text-align: center;
     }
 
-    .option_nav_link, .option_nav {
+    .option_nav_link,
+    .option_nav {
         font-family: var(--font_inter);
     }
 
@@ -1041,7 +1076,9 @@
         text-align: center;
     }
 
-    .title_service, .title_card_unete, .title_misiones {
+    .title_service,
+    .title_card_unete,
+    .title_misiones {
         font-size: 36px;
     }
 
@@ -1134,7 +1171,7 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    
+
     .card_misiones {
         width: 383px;
     }
@@ -1175,7 +1212,8 @@
         width: 433px;
     }
 
-    .cont_pais_participantes, .paragraph_proxima_mision {
+    .cont_pais_participantes,
+    .paragraph_proxima_mision {
         margin-bottom: 8px;
     }
 }
@@ -1257,7 +1295,8 @@
         padding-right: 32px;
     }
 
-    .paragraph_proxima_mision, .cont_meta_impacto_proxima_mision {
+    .paragraph_proxima_mision,
+    .cont_meta_impacto_proxima_mision {
         width: 768px;
     }
 }
@@ -1340,7 +1379,13 @@
 }
 
 @media (min-width: 1400px) {
-    .cont_banner, .cont_service, .cont_unete, .cont_misiones, .footer, .header_index {
+
+    .cont_banner,
+    .cont_service,
+    .cont_unete,
+    .cont_misiones,
+    .footer,
+    .header_index {
         padding-left: 6%;
         padding-right: 6%;
     }
@@ -1363,7 +1408,13 @@
 }
 
 @media (min-width: 1500px) {
-    .cont_banner, .cont_service, .cont_unete, .cont_misiones, .footer, .header_index{
+
+    .cont_banner,
+    .cont_service,
+    .cont_unete,
+    .cont_misiones,
+    .footer,
+    .header_index {
         padding-left: 8%;
         padding-right: 8%;
     }
@@ -1382,7 +1433,13 @@
 }
 
 @media (min-width: 1600px) {
-    .cont_banner, .cont_service, .cont_unete, .cont_misiones, .footer, .header_index {
+
+    .cont_banner,
+    .cont_service,
+    .cont_unete,
+    .cont_misiones,
+    .footer,
+    .header_index {
         padding-left: 11%;
         padding-right: 11%;
     }
@@ -1401,7 +1458,13 @@
 }
 
 @media (min-width: 1700px) {
-    .cont_banner, .cont_service, .cont_unete, .cont_misiones, .footer, .header_index {
+
+    .cont_banner,
+    .cont_service,
+    .cont_unete,
+    .cont_misiones,
+    .footer,
+    .header_index {
         padding-left: 13%;
         padding-right: 13%;
     }
@@ -1424,7 +1487,13 @@
 }
 
 @media (min-width: 1800px) {
-    .cont_banner, .cont_service, .cont_unete, .cont_misiones, .footer, .header_index {
+
+    .cont_banner,
+    .cont_service,
+    .cont_unete,
+    .cont_misiones,
+    .footer,
+    .header_index {
         padding-left: 15%;
         padding-right: 15%;
     }
@@ -1442,7 +1511,7 @@
 /* MODAL */
 .cont_modal {
     position: fixed;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
     z-index: 1000;
     left: 0;
     top: 0;
@@ -1453,7 +1522,7 @@
     align-items: center;
 }
 
-.cont_modal_ocultar { 
+.cont_modal_ocultar {
     display: none;
 }
 
@@ -1471,6 +1540,7 @@
     position: absolute;
     top: 20px;
     right: 20px;
+
     &:hover {
         cursor: pointer;
     }
@@ -1595,6 +1665,7 @@
     border: 1px solid var(--color_bordes);
     font-size: 14px;
     font-weight: 550;
+
     &:hover {
         cursor: pointer;
     }
@@ -1603,6 +1674,11 @@
 .button_modal_enviar {
     background-color: var(--color_principal);
     color: var(--color_blanco);
+}
+
+.name_certificado {
+    color: var(--color_gris_medio);
+    font-size: 10px;
 }
 
 @media (min-width: 400px) {
