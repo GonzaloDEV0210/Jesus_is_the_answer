@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@theme {
+  --color-background: #FFFFFF;
+  --color-foreground: #0A0A0A;
+  --color-primary: #D1A285;
+  --color-primary-foreground: #FAFAFA;
+  --color-secondary: #F5F5F5;
+  --color-secondary-foreground: #171717;
+  --color-muted: #F5F5F5;
+  --color-muted-foreground: #737373;
+  --color-accent: #D99D7B;
+  --color-destructive: #EF4444;
+  --color-border: #E5E5E5;
+  --color-ring: #D1A285;
+  --color-card: #FFFFFF;
+  --color-card-foreground: #0A0A0A;
+
+
+  --font-inter: 'Inter', sans-serif;
+  --font-playfair: 'Playfair Display', serif;
+}
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  .bg-background { background-color: #FFFFFF !important; }
+  .text-foreground { color: #0A0A0A !important; }
+  .bg-primary { background-color: #D1A285 !important; }
+  .text-primary { color: #D1A285 !important; }
+  .text-primary-foreground { color: #FAFAFA !important; }
+  .bg-secondary { background-color: #F5F5F5 !important; }
+  .text-secondary-foreground { color: #171717 !important; }
+  .text-muted-foreground { color: #737373 !important; }
+  .border-border { border-color: #E5E5E5 !important; }
+  .ring-ring { --tw-ring-color: #D1A285 !important; }
+  .bg-card { background-color: #FFFFFF !important; }
+  .bg-card-foreground { background-color: #0A0A0A !important; }
+  .text-card { color: #FFFFFF !important; }
+  .text-card-foreground { color: #0A0A0A !important; }
+}
